@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.edited {
+  background-color: lightgrey;
+  padding: 2rem;
+  border: 2px gray solid;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.editor {
+  background-color: antiquewhite;
+  padding: 2rem;
+  border: 2px aliceblue solid;
+  border-radius: 20px;
+}

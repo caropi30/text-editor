@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Hack Academy - Proyecto Base</title>
+
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <main class="container mt-4">
+      <div class="row">
+        <div class="col-8 box1">
+          <div class="edited">
+            <h1>Javascript y Manipulación del DOM</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque blanditiis fugit magni ullam, quas tenetur culpa quasi
+              ab repellendus reprehenderit voluptas officia at fuga. Minima
+              voluptate totam ad eum adipisci?
+            </p>
+          </div>
+          <!--Cambios guardados con éxito-->
+          <div id="infoAlert"></div>
+        </div>
+
+        <div class="col-4 editor">
+          <div>
+            <h2>Menú de Edición</h2>
+            <form action="index.html" method="post">
+              <div class="mb-3">
+                <label for="title" class="form-label">Título</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="title"
+                  name="title"
+                  placeholder="Ingresa título ..."
+                />
+              </div>
+              <div class="mb-3">
+                <label for="paragraph" class="form-label">Párrafo</label>
+                <textarea
+                  class="form-control"
+                  id="paragraph"
+                  name="paragraph"
+                  rows="3"
+                  placeholder="Ingresa texto ..."
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="titleSize" class="form-label"
+                  >Tamaño del título (en rem)</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="titleSize"
+                  name="titleSize"
+                  placeholder="Ingresa tamaño ..."
+                />
+              </div>
+              <fieldset class="mb-3">
+                <legend for="titleSize" class="form-label fs-6">
+                  Color del título
+                </legend>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="titleColor"
+                    id="fuchsia"
+                    value="fuchsia"
+                    checked
+                  />
+                  <label class="form-check-label" for="titleColor2">
+                    Fucsia
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="titleColor"
+                    id="purple"
+                    value="purple"
+                  />
+                  <label class="form-check-label" for="titleColor2">
+                    Morado
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="titleColor"
+                    id="blue"
+                    value="blue"
+                  />
+                  <label class="form-check-label" for="titleColor3">
+                    Azul
+                  </label>
+                </div>
+                <button id="btnSave" type="button" class="btn btn-success mt-4">
+                  Guardar
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JS de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS de Vue.js
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> -->
+
+    <!-- JS Propio -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
